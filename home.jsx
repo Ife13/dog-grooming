@@ -21,9 +21,8 @@
     <div className="heading">
       <h1>Doodles of Tetbury</h1>
       <p>
-        Add your company's tagline, profile is key mission, or describe its
-        range of products and services
-      </p>
+      Welcome to “Doodles”! 🐾 
+            </p>
       {/* button will be component */}
       <button type="button" className="button1">
         Book Now
@@ -35,47 +34,38 @@
       <img src="brushing dog.jpg" alt="dog being groomed" />
     </div>
     <div className="intro">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam
-      adipisci suscipit a veritatis non, voluptas nulla earum quam! A nihil
-      possimus nulla perferendis autem esse quia facilis iure quasi?
+    We are a small independent dog grooming business
+    located in the Costold Town of Tetbury.
     </div>
     <div className="services">
       <h2>Our Grooming Services</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
-        similique.
+      Catering for dogs of all sizes we offer wash, clip, and blowdry services to leave your pooch looking and smelling incredible.
       </p>
       <div className="benefit1">
         <img src="shower-icon.png" alt="wash" />
-        <h3>Benefit 1</h3>
+        <h3>Why us?</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          pariatur, assumenda dignissimos perferendis deleniti iste odio
-          laboriosam doloremque debitis eum, aut dolorem vitae facilis
-          cupiditate, recusandae enim. Fugit, iusto quidem ullam amet
-          exercitationem illo quos tempore expedita, velit rerum sed?
+        Fully Qualified and insured doggroomer
         </p>
       </div>
       <div className="benefit2">
         <img src="bubbles-icon.png" alt="clean" />
-        <h3>Benefit 2</h3>
+        <h3>Why us?</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          pariatur, assumenda dignissimos perferendis deleniti iste odio
-          laboriosam doloremque debitis eum, aut dolorem vitae facilis
-          cupiditate, recusandae enim. Fugit, iusto quidem ullam amet
-          exercitationem illo quos tempore expedita, velit rerum sed?
+        We use only the best products for your dogs. The Milly’s range offers a fantastic range of shampoos for every coat type leaving the best results possible. They are 
+* Hand made in the uk with luxurious ingredients.
+* free from animal testing. 
+*hypoallergenic 
+* sulphate free and vegan friendly 
+* natural alternative to medicated shampoo
         </p>
       </div>
       <div className="benefit3">
         <img src="brush-icon.png" alt="groom" />
-        <h3>Benefit 3</h3>
+        <h3>Why us?</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          pariatur, assumenda dignissimos perferendis deleniti iste odio
-          laboriosam doloremque debitis eum, aut dolorem vitae facilis
-          cupiditate, recusandae enim. Fugit, iusto quidem ullam amet
-          exercitationem illo quos tempore expedita, velit rerum sed?
+        Small and quiet to ensure a low stres environment for your pet.
         </p>
       </div>
       {/* button will be component */}
