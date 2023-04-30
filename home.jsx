@@ -40,13 +40,13 @@
     <div className="services">
       <h2>Our Grooming Services</h2>
       <p>
-      Catering for dogs of all sizes we offer wash, clip, and blowdry services to leave your pooch looking and smelling incredible.
+      Catering for dogs of all sizes. We offer wash, clip, and blowdry services to leave your pooch looking and smelling incredible.
       </p>
       <div className="benefit1">
         <img src="shower-icon.png" alt="wash" />
         <h3>Why us?</h3>
         <p>
-        Fully Qualified and insured doggroomer
+        Fully Qualified and insured dog groomer.
         </p>
       </div>
       <div className="benefit2">
@@ -54,18 +54,18 @@
         <h3>Why us?</h3>
         <p>
         We use only the best products for your dogs. The Milly’s range offers a fantastic range of shampoos for every coat type leaving the best results possible. They are 
-* Hand made in the uk with luxurious ingredients.
-* free from animal testing. 
-*hypoallergenic 
-* sulphate free and vegan friendly 
-* natural alternative to medicated shampoo
+* Hand made in the uk with luxurious ingredients
+* Free from animal testing
+* Hypoallergenic 
+* Nulphate free and vegan friendly 
+* Natural alternative to medicated shampoo
         </p>
       </div>
       <div className="benefit3">
         <img src="brush-icon.png" alt="groom" />
         <h3>Why us?</h3>
         <p>
-        Small and quiet to ensure a low stres environment for your pet.
+        Small and quiet to ensure a low stress environment for your pet.
         </p>
       </div>
       {/* button will be component */}
