@@ -1,104 +1,116 @@
-.App {
+body {
   text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.nav{ background-color: rgb(67, 116, 67);
-font-size: 15px;
-color: white;
-}
-.heading { background-color: rgb(67, 116, 67);
-    font-size: calc(10px + 2vmin);
+.nav {
+  background-color: rgb(67, 116, 67);
+  font-size: 0.5em;
   color: white;
-  height: 600px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navlogo {
+  max-width: 25px;
+  border-radius: 50%;
+  margin: 2px;
+}
+.heading {
+  background-color: rgb(67, 116, 67);
+  height: 250px;
   position: relative;
-  text-align: center;
-  
 }
-.tagline { 
-  font-size: 35px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: left;
+h1 {
+  font-size: 50px;
+  color: white;
+  padding: 4px;
+}
+.tagline {
+  font-size: 12px;
+  color: white;
+  text-align: justify;
   position: absolute;
-left: 40px}
-
-  .mainheading {font-size: 120px;
-  color: white; 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  left: 20px;
+  top: 90px;
+  width: 240px;
 }
 
-.intro{background-color: white;
+.dogbeinggroomed {
+  position: absolute;
+  right: 30px;
+  top: 90px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: rgb(50, 83, 50);
+}
+.button1 {
+  background-color: white;
+  color: rgb(67, 116, 67);
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(50, 83, 50);
+  font-size: 5px;
+  font-style: bold;
+  align-items: center;
+  border: rgb(67, 116, 67);
+  position: relative;
+  top: 70px;
+  right: 150px;
+}
+.button1:hover {
+  background-color: rgb(67, 116, 67);
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white;
+  color: rgb(67, 116, 67);
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(50, 83, 50);
+  font-size: 5px;
+  font-style: bold;
+  align-items: center;
+  border: rgb(67, 116, 67);
+  position: relative;
+  position: relative;
+  top: 70px;
+  right: 100px;
+}
+.button2:hover {
+  background-color: rgb(67, 116, 67);
+  color: white;
+  cursor: pointer;
+}
+.intro {
+  background-color: white;
   height: 300px;
-  position:relative;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 25px; text-align: left;
-padding-top: 125px;
-      
+  position: relative;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 125px;
 }
-.dogbeinggroomed{ position: absolute;
- 
-right: 50px;
-top:170px;
-width: 700px;
-height: 400px;
-box-shadow: rgb(50, 83, 50);}
 
-h2 {font-size: 30px;}
-p {font-size: 25px;
-
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-
-
-.tagline {font-size: 20px;
-color: white;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h2 {
+  font-size: 30px;
+}
 
 .servicesHeading {
   font-size: 30px;
 }
 .services {
   background-color: rgb(67, 116, 67);
-  color:white;
+  color: white;
 }
 
-.button1 {
-  background-color:white ;
-  color:rgb(67, 116, 67) ;
-  padding: 10px 25px;
-  border-radius: 15px;
-  box-shadow: 0 3px rgb(50, 83, 50);
-  font-size: 15px;
-  font-style: bold;
-  align-items: center;
-  border:rgb(67, 116, 67);
-  position: relative;
-  top: 175px;
-  right: 400px;
-  
-}
-.button1:hover {background-color: rgb(67, 116, 67);
-color: white;}
-
-.button2 {
-  background-color:white ;
-  color:rgb(67, 116, 67) ;
-  padding: 10px 25px;
-  border-radius: 15px;
-  box-shadow: 0 3px  rgb(50, 83, 50);
-  font-size: 15px;
-  font-style: bold;
-  align-items: center;
-  border:rgb(67, 116, 67);
-  position: relative;
-  position: relative;
-  top: 175px;
-  right: 350px;
-  
-}
-.button2:hover {background-color: rgb(67, 116, 67);
-color: white;}
-
-nav{ align-tracks: center;}
-h4
-{
+h4 {
   text-decoration: underline;
 }
 
@@ -106,13 +118,13 @@ h4
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.card {
+  justify-content: space-around;
+  padding: 50px 0;
 }
-.card{ 
-justify-content: space-around;
-padding: 50px 0;}
-.card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 /* Float four columns side by side */
 .column {
   float: left;
@@ -121,7 +133,9 @@ padding: 50px 0;}
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -138,7 +152,8 @@ padding: 50px 0;}
 }
 .pawprints {
   size: 500%;
-  background-repeat: repeat-x;}
+  background-repeat: repeat-x;
+}
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {

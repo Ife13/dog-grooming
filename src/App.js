@@ -25,19 +25,22 @@ function App() {
       <title>Doodles</title>
       {/* Navigation bar will be a component */}
       <nav className="nav">
-        <img src={logo} alt="Logo of brand" className="navlogo" width="25" />
+        <img src={logo} alt="Logo of brand" className="navlogo" />
         <a href="home.jsx">Home</a>
         <a href="contact-us.jsx">Contact Us</a>
-        <i className="fa fa-phone" style={{ fontSize: 24 }} />
-        <p>07889907850</p>
+        <p className="number">
+          {" "}
+          <i className="fa fa-phone" />
+          07889907850
+        </p>
       </nav>
       {/* Navigation bar will be a component */}
       <main>
         <div className="heading">
-          <h1 className="mainheading">Doodles of Tetbury</h1>
+          <h1>Doodles of Tetbury</h1>
           <p className="tagline">
-            We are a small independent business <br></br>located just off the high street
-            in Tetbury.
+            We are a small independent business <br></br>located just off the
+            high street in Tetbury.
           </p>
           {/* button will be component */}
           <button type="button" className="button1">
@@ -51,13 +54,12 @@ function App() {
             src={headingpic}
             className="dogbeinggroomed"
             alt="dog being groomed"
-            width="250"
           />
         </div>
         <div className="intro">
-          Welcome to Doodles 🐾. I am Natalie the owner of the business. <br></br>I
-          trained at Hartpury College and have experience with a wide range of
-          breeds, temperaments and coat types.
+          Welcome to Doodles 🐾. I am Natalie the owner of the business.{" "}
+          <br></br>I trained at Hartpury College and have experience with a wide
+          range of breeds, temperaments and coat types.
         </div>
         <div className="services">
           <h2>Our Grooming Services</h2>
