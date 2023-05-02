@@ -1,38 +1,126 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{ background-color: rgb(67, 116, 67);
+font-size: 15px;
+color: white;
 }
+.heading { background-color: rgb(67, 116, 67);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 2vmin);
   color: white;
+  height: 400px;
+}
+.intro{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 25px; 
+
+}
+.dogbeinggroomed{ position: absolute;
+right: 50px;
+top:200px;
+width: 500px;
+height: 300px;}
+
+h2 {font-size: 30px;}
+p {font-size: 25px;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.mainheading {font-size: 120px;
+  color: white; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tagline {font-size: 20px;
+color: white;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.servicesHeading {
+  font-size: 30px;
+}
+.services {
+  background-color: rgb(67, 116, 67);
+  color:white;
 }
 
-.App-link {
-  color: #61dafb;
+.button1 {
+  background-color:white ;
+  color:rgb(67, 116, 67) ;
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(50, 83, 50);
+  font-size: 15px;
+  font-style: bold;
+  align-items: center;
+  border:rgb(67, 116, 67);
+  
+}
+.button1:hover {background-color: rgb(67, 116, 67);
+color: white;}
+
+.button2 {
+  background-color:white ;
+  color:rgb(67, 116, 67) ;
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px  rgb(50, 83, 50);
+  font-size: 15px;
+  font-style: bold;
+  align-items: center;
+  
+}
+.button2:hover {background-color: rgb(67, 116, 67);
+color: white;}
+
+nav{ align-tracks: center;}
+h4
+{
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card{ 
+justify-content: space-around;
+padding: 50px 0;}
+.card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(67, 116, 67);
+}
+.pawprints {
+  size: 500%;
+  background-repeat: repeat-x;}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
