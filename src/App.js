@@ -1,5 +1,4 @@
 import "./App.css";
-import "./website.css";
 import logo from "../src/images/doodles logo.jpg";
 import headingpic from "../src/images/brushing dog.jpg";
 import wash from "../src/images/shower-icon.png";
@@ -25,7 +24,7 @@ function App() {
       />
       <title>Doodles</title>
       {/* Navigation bar will be a component */}
-      <nav className = "nav">
+      <nav className="nav">
         <img src={logo} alt="Logo of brand" className="navlogo" width="25" />
         <a href="home.jsx">Home</a>
         <a href="contact-us.jsx">Contact Us</a>
@@ -35,9 +34,10 @@ function App() {
       {/* Navigation bar will be a component */}
       <main>
         <div className="heading">
-          <h1 className= "mainheading">Doodles of Tetbury</h1>
-          <p className= "tagline">
-          We are a small independent business located just off the high street in Tetbury.
+          <h1 className="mainheading">Doodles of Tetbury</h1>
+          <p className="tagline">
+            We are a small independent business located just off the high street
+            in Tetbury.
           </p>
           {/* button will be component */}
           <button type="button" className="button1">
@@ -47,52 +47,61 @@ function App() {
             Find a salon
           </button>
           {/* button will be component */}
-          <img src={headingpic} className= "dogbeinggroomed" alt="dog being groomed" width="250" />
+          <img
+            src={headingpic}
+            className="dogbeinggroomed"
+            alt="dog being groomed"
+            width="250"
+          />
         </div>
         <div className="intro">
-        Welcome to Doodles 🐾. I am Natalie the owner of the business.
-         I trained at Hartpury College and have experience with a wide range of breeds, temperaments and coat types.
+          Welcome to Doodles 🐾. I am Natalie the owner of the business. I
+          trained at Hartpury College and have experience with a wide range of
+          breeds, temperaments and coat types.
         </div>
         <div className="services">
           <h2>Our Grooming Services</h2>
           <p>
-          Catering for dogs of all sizes. We offer wash, clip, and blowdry 
-          services to leave your pooch looking and smelling incredible.
+            Catering for dogs of all sizes. We offer wash, clip, and blowdry
+            services to leave your pooch looking and smelling incredible.
           </p>
-
 
           <div class="row">
             <div class="column">
-                <div class="card">
-                  <img src={wash} alt="wash" width="40" />
+              <div class="card">
+                <img src={wash} alt="wash" width="40" />
                 <h4>Why us</h4>
                 <p>Qualified and fully insured.</p>
-                </div>
               </div>
-  <div class="column">
-    <div class="card"> 
-    <img src={clean} alt="clean" width="40" />
-    <h4>Why us</h4>
-    <p>We use only the best products for your dogs. 
-            The Milly’s range offers a fantastic range of shampoos for every coat type 
-            leaving the best results possible. 
-            <br></br>They are:
-            <li>Hand made in the uk with luxurious ingredients.</li>
-            <li>Free from animal testing. </li>
-            <li>Hypoallergenic </li>
-            <li>Sulphate free and vegan friendly</li> 
-            <li>Natural alternative to medicated shampoo</li></p>
             </div>
-  </div>
-  <div class="column">
-    <div class="card">
-    <img src={groom} alt="groom" width="40" />
-    <h4>Why us</h4>
-    <p>Small and quiet to ensure a low stress environment for your pet.</p></div>
-  </div>
-
-
-</div>
+            <div class="column">
+              <div class="card">
+                <img src={clean} alt="clean" width="40" />
+                <h4>Why us</h4>
+                <p>
+                  We use only the best products for your dogs. The Milly’s range
+                  offers a fantastic range of shampoos for every coat type
+                  leaving the best results possible.
+                  <br></br>They are:
+                  <li>Hand made in the uk with luxurious ingredients.</li>
+                  <li>Free from animal testing. </li>
+                  <li>Hypoallergenic </li>
+                  <li>Sulphate free and vegan friendly</li>
+                  <li>Natural alternative to medicated shampoo</li>
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <img src={groom} alt="groom" width="40" />
+                <h4>Why us</h4>
+                <p>
+                  Small and quiet to ensure a low stress environment for your
+                  pet.
+                </p>
+              </div>
+            </div>
+          </div>
 
           {/* button will be component */}
           <button type="button" className="button1">
@@ -102,7 +111,6 @@ function App() {
         </div>
         <div className="pawprints">
           <img src={pawprints} alt="pawprints" width="165" />
-          
         </div>
         <div className="clients">
           <h2>Our Fluffy Clients</h2>
