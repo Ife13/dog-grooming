@@ -36,7 +36,7 @@ function App() {
         <div className="heading">
           <h1 className="mainheading">Doodles of Tetbury</h1>
           <p className="tagline">
-            We are a small independent business located just off the high street
+            We are a small independent business <br></br>located just off the high street
             in Tetbury.
           </p>
           {/* button will be component */}
@@ -55,7 +55,7 @@ function App() {
           />
         </div>
         <div className="intro">
-          Welcome to Doodles 🐾. I am Natalie the owner of the business. I
+          Welcome to Doodles 🐾. I am Natalie the owner of the business. <br></br>I
           trained at Hartpury College and have experience with a wide range of
           breeds, temperaments and coat types.
         </div>

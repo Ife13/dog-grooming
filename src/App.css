@@ -6,31 +6,47 @@ font-size: 15px;
 color: white;
 }
 .heading { background-color: rgb(67, 116, 67);
-
     font-size: calc(10px + 2vmin);
   color: white;
-  height: 400px;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  
 }
-.intro{
+.tagline { 
+  font-size: 35px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 25px; 
+  text-align: left;
+  position: absolute;
+left: 40px}
 
+  .mainheading {font-size: 120px;
+  color: white; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.intro{background-color: white;
+  height: 300px;
+  position:relative;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 25px; text-align: left;
+padding-top: 125px;
+      
 }
 .dogbeinggroomed{ position: absolute;
+ 
 right: 50px;
-top:200px;
-width: 500px;
-height: 300px;}
+top:170px;
+width: 700px;
+height: 400px;
+box-shadow: rgb(50, 83, 50);}
 
 h2 {font-size: 30px;}
 p {font-size: 25px;
 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-.mainheading {font-size: 120px;
-  color: white; 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 .tagline {font-size: 20px;
 color: white;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
@@ -53,6 +69,9 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   font-style: bold;
   align-items: center;
   border:rgb(67, 116, 67);
+  position: relative;
+  top: 175px;
+  right: 400px;
   
 }
 .button1:hover {background-color: rgb(67, 116, 67);
@@ -67,6 +86,11 @@ color: white;}
   font-size: 15px;
   font-style: bold;
   align-items: center;
+  border:rgb(67, 116, 67);
+  position: relative;
+  position: relative;
+  top: 175px;
+  right: 350px;
   
 }
 .button2:hover {background-color: rgb(67, 116, 67);
