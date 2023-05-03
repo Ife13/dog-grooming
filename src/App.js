@@ -14,15 +14,6 @@ import dog5 from "../src/images/dog 5.jpg";
 function App() {
   return (
     <>
-      <meta charSet="UTF-8" />
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="website.css" />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <title>Doodles</title>
       <nav className="nav">
         <img src={logo} alt="Logo of brand" className="navlogo" />
         <a href="home.jsx">Home</a>
