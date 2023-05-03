@@ -45,7 +45,7 @@ function App() {
           />
         </div>
         <div className="intro">
-          Welcome to Doodles 🐾. I am Natalie the owner of the business.{" "}
+          Welcome to Doodles 🐾. <br></br>I am Natalie the owner of the business.{" "}
           <br></br>I trained at Hartpury College and have experience with a wide
           range of breeds, temperaments and coat types.
         </div>
@@ -61,6 +61,7 @@ function App() {
               <div class="card">
                 <img src={wash} alt="wash" width="40" />
                 <h4>Why us?</h4>
+                <br></br>
                 <p>Qualified and fully insured.</p>
               </div>
             </div>
@@ -68,6 +69,7 @@ function App() {
               <div class="card">
                 <img src={clean} alt="clean" width="40" />
                 <h4>Why us?</h4>
+                <br></br>
                 <p>
                   We use only the best products for your dogs.{" "}
                   {/*The Milly’s range
@@ -86,6 +88,7 @@ function App() {
               <div class="card">
                 <img src={groom} alt="groom" width="40" />
                 <h4>Why us?</h4>
+                <br></br>
                 <p>
                   Small and quiet to ensure a low stress environment for your
                   pet.

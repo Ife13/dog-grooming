@@ -1,3 +1,5 @@
+
+
 body {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -65,7 +67,7 @@ h1 {
   padding: 10px 25px;
   border-radius: 15px;
   box-shadow: 0 3px rgb(50, 83, 50);
-  font-size: 5px;
+  font-size: 10px;
   font-style: bold;
   align-items: center;
   border: rgb(67, 116, 67);
@@ -85,7 +87,7 @@ h1 {
   padding: 10px 25px;
   border-radius: 15px;
   box-shadow: 0 3px rgb(50, 83, 50);
-  font-size: 5px;
+  font-size: 10px;
   font-style: bold;
   align-items: center;
   border: rgb(67, 116, 67);
@@ -137,6 +139,7 @@ h4 {
   background-color: rgb(67, 116, 67);
   padding: 16px;
   margin: 10px 0px 2px 0px;
+  height: 200px;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -144,7 +147,7 @@ h4 {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
   padding: 0 10px;
 }
 
@@ -161,13 +164,13 @@ h4 {
   padding: 10px 25px;
   border-radius: 15px;
   box-shadow: 0 3px rgb(50, 83, 50);
-  font-size: 5px;
+  font-size: 10px;
   font-style: bold;
   align-items: center;
   border: rgb(67, 116, 67);
   position: relative;
   top: 10px;
-  right: 180px;
+  right: 480px;
 }
 .button3:hover {
   background-color: rgb(67, 116, 67);
@@ -182,12 +185,13 @@ h4 {
     margin-bottom: 20px;
   }
 }
-
+.pawprints{padding-top: 20px;}
 img {
   object-fit: cover;
 }
 .dogs {
   display: flex;
+  margin-left: 470px;
   gap: 4px;
   padding: 10px 1px;
 }
