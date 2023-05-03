@@ -23,7 +23,6 @@ function App() {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       />
       <title>Doodles</title>
-      {/* Navigation bar will be a component */}
       <nav className="nav">
         <img src={logo} alt="Logo of brand" className="navlogo" />
         <a href="home.jsx">Home</a>
@@ -34,7 +33,7 @@ function App() {
           07889907850
         </p>
       </nav>
-      {/* Navigation bar will be a component */}
+      <hr></hr>
       <main>
         <div className="heading">
           <h1>Doodles of Tetbury</h1>
@@ -42,14 +41,12 @@ function App() {
             We are a small independent business <br></br>located just off the
             high street in Tetbury.
           </p>
-          {/* button will be component */}
           <button type="button" className="button1">
             Book Now
           </button>
           <button type="button" className="button2">
             Find a salon
           </button>
-          {/* button will be component */}
           <img
             src={headingpic}
             className="dogbeinggroomed"
@@ -72,16 +69,17 @@ function App() {
             <div class="column">
               <div class="card">
                 <img src={wash} alt="wash" width="40" />
-                <h4>Why us</h4>
+                <h4>Why us?</h4>
                 <p>Qualified and fully insured.</p>
               </div>
             </div>
             <div class="column">
               <div class="card">
                 <img src={clean} alt="clean" width="40" />
-                <h4>Why us</h4>
+                <h4>Why us?</h4>
                 <p>
-                  We use only the best products for your dogs. The Milly’s range
+                  We use only the best products for your dogs.{" "}
+                  {/*The Milly’s range
                   offers a fantastic range of shampoos for every coat type
                   leaving the best results possible.
                   <br></br>They are:
@@ -89,91 +87,88 @@ function App() {
                   <li>Free from animal testing. </li>
                   <li>Hypoallergenic </li>
                   <li>Sulphate free and vegan friendly</li>
-                  <li>Natural alternative to medicated shampoo</li>
+                  <li>Natural alternative to medicated shampoo</li> */}
                 </p>
               </div>
             </div>
             <div class="column">
               <div class="card">
                 <img src={groom} alt="groom" width="40" />
-                <h4>Why us</h4>
+                <h4>Why us?</h4>
                 <p>
                   Small and quiet to ensure a low stress environment for your
                   pet.
                 </p>
               </div>
+              <button type="button" className="button3">
+                Book Now
+              </button>
             </div>
           </div>
-
-          {/* button will be component */}
-          <button type="button" className="button1">
-            Book Now
-          </button>
-          {/* button will be component */}
         </div>
         <div className="pawprints">
           <img src={pawprints} alt="pawprints" width="165" />
+          <img src={pawprints} alt="pawprints" width="165" />
+          <img src={pawprints} alt="pawprints" width="165" />
         </div>
-        <div className="clients">
+        <div>
           <h2>Our Fluffy Clients</h2>
           <p>Photos of our dogs after grooming</p>
-          {/* carousel will be component */}
-          <div className="dog">
-            <img src={dog1} alt="dog1" width="100" />
-            <br />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star not-checked" />
-          </div>
-          <div className="dog">
-            <img src={dog2} alt="dog2" width="100" />
-            <br />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-          </div>
-          <div className="dog">
-            <img src={dog3} alt="dog3" width="100" />
-            <br />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star" />
-          </div>
-          <div className="dog">
-            <img src={dog4} alt="dog4" width="100" />
-            <br />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-          </div>
-          <div className="dog">
-            <img src={dog5} alt="dog5" width="100" />
-            <br />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star" />
+          <div className="dogs">
+            <div className="dog">
+              <img src={dog1} alt="dog1" width="100" height="100" />
+              <br />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star not-checked" />
+            </div>
+            <div className="dog">
+              <img src={dog2} alt="dog2" width="100" height="100" />
+              <br />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+            </div>
+            <div className="dog">
+              <img src={dog3} alt="dog3" width="100" height="100" />
+              <br />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star" />
+            </div>
+            <div className="dog">
+              <img src={dog4} alt="dog4" width="100" height="100" />
+              <br />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+            </div>
+            <div className="dog">
+              <img src={dog5} alt="dog5" width="100" height="100" />
+              <br />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star checked" />
+              <span className="fa fa-star" />
+            </div>
           </div>
         </div>
-        {/* carousel will be component */}
       </main>
-      {/* footer will be a component */}
       <footer>
         <i className="fa fa-twitter" />
         <i className="fa fa-instagram" />
         <i className="fa fa-facebook-f" />
         <p>© Copyright 2023</p>
       </footer>
-      {/* footer will be a component */}
     </>
   );
 }

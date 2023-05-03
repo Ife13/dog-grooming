@@ -3,6 +3,10 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 .nav {
   background-color: rgb(67, 116, 67);
   font-size: 0.5em;
@@ -16,10 +20,16 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover {
+  color: black;
+}
 .navlogo {
   max-width: 25px;
   border-radius: 50%;
   margin: 2px;
+}
+.navlogo:hover {
+  cursor: pointer;
 }
 .heading {
   background-color: rgb(67, 116, 67);
@@ -60,7 +70,7 @@ h1 {
   align-items: center;
   border: rgb(67, 116, 67);
   position: relative;
-  top: 70px;
+  top: 90px;
   right: 150px;
 }
 .button1:hover {
@@ -81,7 +91,7 @@ h1 {
   border: rgb(67, 116, 67);
   position: relative;
   position: relative;
-  top: 70px;
+  top: 90px;
   right: 100px;
 }
 .button2:hover {
@@ -91,15 +101,15 @@ h1 {
 }
 .intro {
   background-color: white;
-  height: 300px;
-  position: relative;
-  font-size: 25px;
-  text-align: left;
-  padding-top: 125px;
+  height: 150px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 h2 {
   font-size: 30px;
+  padding: 10px;
 }
 
 .servicesHeading {
@@ -109,18 +119,24 @@ h2 {
   background-color: rgb(67, 116, 67);
   color: white;
 }
+.row {
+  display: flex;
+  margin: 0 -5px;
+  align-items: stretch;
+}
 
 h4 {
   text-decoration: underline;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .card {
   justify-content: space-around;
   padding: 50px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: rgb(67, 116, 67);
+  padding: 16px;
+  margin: 10px 0px 2px 0px;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -132,11 +148,6 @@ h4 {
   padding: 0 10px;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-  margin: 0 -5px;
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -144,17 +155,25 @@ h4 {
   clear: both;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
+.button3 {
+  background-color: white;
+  color: rgb(67, 116, 67);
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(50, 83, 50);
+  font-size: 5px;
+  font-style: bold;
+  align-items: center;
+  border: rgb(67, 116, 67);
+  position: relative;
+  top: 10px;
+  right: 180px;
+}
+.button3:hover {
   background-color: rgb(67, 116, 67);
+  color: white;
+  cursor: pointer;
 }
-.pawprints {
-  size: 500%;
-  background-repeat: repeat-x;
-}
-
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {
@@ -162,4 +181,29 @@ h4 {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+img {
+  object-fit: cover;
+}
+.dogs {
+  display: flex;
+  gap: 4px;
+  padding: 10px 1px;
+}
+
+footer {
+  background-color: rgb(67, 116, 67);
+}
+footer > p {
+  color: white;
+  padding: 5px;
+}
+i {
+  padding: 4px;
+  color: white;
+}
+i:hover {
+  cursor: pointer;
+  color: black;
 }
