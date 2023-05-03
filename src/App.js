@@ -55,7 +55,7 @@ function App() {
             Catering for dogs of all sizes. We offer wash, clip, and blowdry
             services to leave your pooch looking and smelling incredible.
           </p>
-
+<br></br>
           <div class="row">
             <div class="column">
               <div class="card">
@@ -101,6 +101,10 @@ function App() {
           </div>
         </div>
         <div className="pawprints">
+          <img src={pawprints} alt="pawprints" width="165" />
+          <img src={pawprints} alt="pawprints" width="165" />
+          <img src={pawprints} alt="pawprints" width="165" />
+          <img src={pawprints} alt="pawprints" width="165" />
           <img src={pawprints} alt="pawprints" width="165" />
           <img src={pawprints} alt="pawprints" width="165" />
           <img src={pawprints} alt="pawprints" width="165" />
@@ -160,7 +164,7 @@ function App() {
       <footer>
         <i className="fa fa-twitter" />
         <i className="fa fa-instagram" />
-        <i className="fa fa-facebook-f" />
+        <i className="fa fa-facebook-f"/>
         <p>© Copyright 2023</p>
       </footer>
     </>
