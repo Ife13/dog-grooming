@@ -72,16 +72,7 @@ function App() {
                 <br></br>
                 <p>
                   We use only the best products for your dogs.{" "}
-                  {/*The Milly’s range
-                  offers a fantastic range of shampoos for every coat type
-                  leaving the best results possible.
-                  <br></br>They are:
-                  <li>Hand made in the uk with luxurious ingredients.</li>
-                  <li>Free from animal testing. </li>
-                  <li>Hypoallergenic </li>
-                  <li>Sulphate free and vegan friendly</li>
-                  <li>Natural alternative to medicated shampoo</li> */}
-                </p>
+                 </p>
               </div>
             </div>
             <div class="column">

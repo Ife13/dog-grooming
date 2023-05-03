@@ -145,14 +145,13 @@ h4 {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-/* Float four columns side by side */
+
 .column {
   float: left;
   width: 33%;
   padding: 0 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -179,7 +178,7 @@ h4 {
   color: white;
   cursor: pointer;
 }
-/* Responsive columns - one column layout (vertical) on small screens */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
